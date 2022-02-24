@@ -60,7 +60,7 @@ router.put('/:id', async (req, res) => {
       
       },
     )
-    res.json(`success updating category name`);
+    res.json  (`success updating category name`);
     // res.json(updatedName);
 
   } catch(err) {
