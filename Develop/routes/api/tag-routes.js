@@ -7,7 +7,7 @@ router.get('/', async (req, res) => {
   // find all tags
   // be sure to include its associated Product data
   const allTags = await Tag.findAll({
-    include: [{ model: ProductTag }],
+    include: [{ model: Product }],
   }).catch(err => console.log(err)); 
   res.json(allTags);  
 });
@@ -16,7 +16,7 @@ router.get('/:id', async (req, res) => {
   // find a single tag by its `id`
   // be sure to include its associated Product data
   const tag = await Tag.findOne({
-    include: [{ model: ProductTag }],
+    include: [{ model: Product }],
     where: {
       id: req.params.id,
     }
