@@ -26,6 +26,7 @@ A  [video walkthrough]() of creating the MySQL2 database, seeding data and Insom
 
 2. In a second terminal
 <pre>npm i</pre>
+<pre>node seeds/index.js</pre>
 <pre>npm start</pre>
 
 
