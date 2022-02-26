@@ -17,12 +17,12 @@
   A backend application the was developed using Node.js/Express.js for the server and request routing, and MySQL for a persistent database. Using the ORM Sequelize, CRUD requests were achieved and available for Products, Categories and Tags models.  toTables represent one to many and many to many relationships, requiring a ProductTags bridge. Application has been fully tested using Insomonia
 
   ## Video Walkthrough
-A  [video walkthrough]() of creating the MySQL2 database, seeding data and Insomnia testing.
+A  [video walkthrough](https://drive.google.com/file/d/133nEIbrXMQA6qzH2SV65mzR0fDa0P42y/view?usp=sharing) of creating the MySQL2 database, seeding data and Insomnia testing.
   ## Installation Instructions
 
     
 1. Select database through mysql queries => these are steps for after MySQL login
-<pre>source schema.sql;</pre>
+<pre>source db/schema.sql;</pre>
 
 2. In a second terminal
 <pre>npm i</pre>
